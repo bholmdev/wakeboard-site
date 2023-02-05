@@ -2,7 +2,7 @@ import { Col, Row } from "reactstrap";
 import ParkCard from "./ParkCard";
 import { selectAllParks } from "./parksSlice";
 
-const ParksList = () => {
+const ParksList = ({ setParkId }) => {
     const parks = selectAllParks();
 
     return (
@@ -14,6 +14,7 @@ const ParksList = () => {
                             md="5"
                             className="m-4"
                             key={park.id}
+                            onClick={() => setParkId(park.id)}
                         >
                             <ParkCard park={park}/>
                         </Col>   
