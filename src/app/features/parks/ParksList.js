@@ -1,12 +1,14 @@
-import { PARKS } from "../../shared/PARKS";
 import { Col, Row } from "reactstrap";
 import ParkCard from "./ParkCard";
+import { selectAllParks } from "./parksSlice";
 
 const ParksList = () => {
+    const parks = selectAllParks();
+
     return (
         <Row className="ms-auto">
             {
-                PARKS.map(park => {
+                parks.map(park => {
                     return ( 
                         <Col
                             md="5"
