@@ -1,19 +1,14 @@
-import React from 'react';
 import './App.css';
-import { Container, Navbar, NavbarBrand } from 'reactstrap';
-import logo from "./app/assets/img/logo.jpg";
+import Header from './app/components/Header';
+import ParksList from './app/features/parks/ParksList';
+import Footer from './app/components/Footer';
 
 function App() {
   return (
     <div className="App">
-      <Navbar dark color="primary" stick="top" expand="md">
-        <Container>
-          <NavbarBrand href="/">
-            <img src={logo} alt="logo" />
-          </NavbarBrand>
-        </Container>
-      </Navbar>
-      You Can Wakeboard Too!
+      <Header />
+      <ParksList />
+      <Footer />
     </div>
   );
 }
