@@ -5,7 +5,7 @@ export const selectAllParks = () => {
 };
 
 export const selectParkById = (id) => {
-    return PARKS.find(park => park.id === id);
+    return PARKS.find(park => park.id === parseInt(id));
 };
 
 export const selectFeaturedPark = () => {

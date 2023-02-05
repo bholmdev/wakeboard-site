@@ -1,6 +1,6 @@
 import { Card, CardBody, CardImg, CardText, Col } from "reactstrap";
 
-const CampsiteDetail = ({ park }) => {
+const ParkDetail = ({ park }) => {
     const { image, name, description } = park;
 
     return (
@@ -22,4 +22,4 @@ const CampsiteDetail = ({ park }) => {
     );
 };
 
-export default CampsiteDetail;
+export default ParkDetail;

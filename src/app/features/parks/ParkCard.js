@@ -1,17 +1,22 @@
 import { Card, CardImg, CardImgOverlay, CardTitle } from "reactstrap";
+import { Link } from "react-router-dom";
 
-const ParkCard = (props) => {
+const ParkCard = ({ park }) => {
+  const { id, image, name } = park;
+
   return (
-    <Card>
-        <CardImg
-            width="100%"
-            src={props.park.image}
-            alt={props.park.name}
-        />
-        <CardImgOverlay>
-            <CardTitle>{props.park.name}</CardTitle>
-        </CardImgOverlay>
-    </Card>
+    <Link to={`${id}`}>
+      <Card>
+          <CardImg
+              width="100%"
+              src={image}
+              alt={name}
+          />
+          <CardImgOverlay>
+              <CardTitle>{name}</CardTitle>
+          </CardImgOverlay>
+      </Card>
+    </Link>
   );
 };
 
