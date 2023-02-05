@@ -7,3 +7,7 @@ export const selectAllParks = () => {
 export const selectParkById = (id) => {
     return PARKS.find(park => park.id === id);
 };
+
+export const selectFeaturedPark = () => {
+    return PARKS.find(park => park.featured);
+};

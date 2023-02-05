@@ -1,35 +1,38 @@
-
+import wakeboardkid from "../assets/img/wakeboardkid.jpg"
+import beginner from "../assets/img/beginner.jpg";
+import intermediate from "../assets/img/intermediate.jpg";
+import advanced from "../assets/img/advanced.jpg";
 
 export const PROMOTIONS = [
     {
         id: 0,
-        name: 'Mountain Adventure',
-        image: breadCrumbImg,
+        name: 'New Guy Adventure',
+        image: wakeboardkid,
         featured: true,
         description:
-            'Book a 5-day mountain trek with a seasoned outdoor guide! Fly fishing equipment and lessons provided.'
+            'Book a 5-day course with a pro wakeboarder guide! Wakeboard, park time, and lessons provided.'
     },
     {
         id: 1,
-        name: 'Into The Weeds',
-        image: weedsImg,
+        name: 'Beginner Teardown',
+        image: beginner,
         featured: false,
-        description:
-            '5 days deep in the Redux National Monument, far from the beaten path, with only a reducer in your backpack. Guide provided.'
+        description: `In this weekend course, we'll build your fundamentals, so you're ready for next-level wakes.`
     },
     {
         id: 2,
-        name: 'Bootstrap Teardown',
-        image: bootsImg,
+        name: 'Into The Depths',
+        image: intermediate,
         featured: false,
-        description: `In this weekend workshop, we'll rebuild your bootstraps from scratch, so you're ready for next-level excursions.`
+        description:
+            'Intermediate level adventure with ramps and freestyle park.  Limited time only!'
     },
     {
         id: 3,
-        name: 'Asynchronous Rendezvous',
-        image: asyncImg,
+        name: 'Advanced Training',
+        image: advanced,
         featured: false,
         description:
-            'Meet up with your guide at the top of Promise Mountain. Or, try to. Good luck!'
+            'Meet with experts from around the globe to test your body and board to their limits!'
     }
 ];
