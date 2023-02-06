@@ -24,7 +24,7 @@ const Header = () => {
                 <h1 className="mt-2">Wakeboard United</h1>
             </NavbarBrand>
             <NavbarToggler onClick={() => setMenuOpen(!menuOpen)} />
-            <Collapse isOpen={!menuOpen} navbar>
+            <Collapse isOpen={menuOpen} navbar>
                 <Nav className="ms-auto" navbar>
                     <NavItem>
                         <NavLink className="nav-link" to="/">
