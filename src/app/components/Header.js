@@ -14,41 +14,47 @@ const Header = () => {
     const [menuOpen, setMenuOpen] = useState(false);
 
     return (
-        <Navbar
-            dark color="primary"
-            stick="top"
-            expand="md"
-        >
-            <NavbarBrand className="ms-5" href="/">
-                <img src={logo} alt="logo" className="float-start" />
-                <h1 className="mt-2">Wakeboard United</h1>
-            </NavbarBrand>
-            <NavbarToggler onClick={() => setMenuOpen(!menuOpen)} />
-            <Collapse isOpen={menuOpen} navbar>
-                <Nav className="ms-auto" navbar>
-                    <NavItem>
-                        <NavLink className="nav-link" to="/">
-                            <i className="fa fa-home fa-lg" /> Home
-                        </NavLink>
-                    </NavItem>
-                    <NavItem>
-                        <NavLink className="nav-link" to="/directory">
-                            <i className="fa fa-list fa-lg" /> Directory
-                        </NavLink>
-                    </NavItem>
-                    <NavItem>
-                        <NavLink className="nav-link" to="/about">
-                            <i className="fa fa-info fa-lg" /> About
-                        </NavLink>
-                    </NavItem>
-                    <NavItem>
-                        <NavLink className="nav-link" to="/contact">
-                            <i className="fa fa-address fa-lg" /> Contact
-                        </NavLink>
-                    </NavItem>
-                </Nav>
-            </Collapse>
-        </Navbar>
+        <>
+            <div className="banner">
+                <a href="/"><img src={logo} alt="logo" className="banner-image" /></a>
+                <h1 className="banner-title">Wakeboard United</h1>
+            </div>
+            <Navbar
+                dark
+                className="custom-navbar"
+                stick="top"
+                expand="md"
+            >   
+                <NavbarBrand href="/">
+                    <img src={logo} alt="logo" />
+                </NavbarBrand>
+                <NavbarToggler onClick={() => setMenuOpen(!menuOpen)} />
+                <Collapse isOpen={menuOpen} navbar>
+                    <Nav className="ms-center" navbar>
+                        <NavItem>
+                            <NavLink className="nav-link" to="/">
+                                <i className="fa fa-home fa-lg" /> Home
+                            </NavLink>
+                        </NavItem>
+                        <NavItem>
+                            <NavLink className="nav-link" to="/directory">
+                                <i className="fa fa-list fa-lg" /> Directory
+                            </NavLink>
+                        </NavItem>
+                        <NavItem>
+                            <NavLink className="nav-link" to="/about">
+                                <i className="fa fa-info fa-lg" /> About
+                            </NavLink>
+                        </NavItem>
+                        <NavItem>
+                            <NavLink className="nav-link" to="/contact">
+                                <i className="fa fa-address fa-lg" /> Contact
+                            </NavLink>
+                        </NavItem>
+                    </Nav>
+                </Collapse>
+            </Navbar>
+        </>
     );
 };
 

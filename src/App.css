@@ -9,6 +9,25 @@ h3,
     font-family: 'Lobster', cursive;
 }
 
+.banner {
+    display: flex;
+    align-items: center;
+    background-image: url("./app/assets/img/banner.jpg");
+    background-size: 100%;
+    margin-bottom: 0;
+    min-height: 8rem;
+}
+
+.banner-image {
+    height: 80px;
+    margin-right: 25px;
+    margin-left: 40px;
+}
+
+.banner-title {
+    color: white;
+}
+
 .card-title {
     font-weight: 500;
     font-size: 1.25rem;
@@ -23,6 +42,10 @@ h2 {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
+.custom-navbar {
+    background-color: #0c597a;
+}
+
 .row-content {
     padding: 50px 0;
     border-bottom: 1px ridge;
@@ -30,9 +53,14 @@ h2 {
 }
 
 .site-footer {
-    background-image: linear-gradient(#cec8ff, white);
+    background-image: linear-gradient(#0c597a, #248bb7);
     padding: 20px 0;
     margin-top: 2rem;
+}
+
+.site-footer a {
+    color: black;
+    text-decoration: none;
 }
 
 .navbar-brand {
@@ -45,13 +73,6 @@ h2 {
     height: 100%;
     margin-right: 2rem;
     max-width: 4rem;
-}
-
-.navbar-dark {
-    background-image: url("./app/assets/img/banner.jpg");
-    background-size: 100%;
-    margin-bottom: 2rem;
-    min-height: 8rem;
 }
 
 .page-enter {

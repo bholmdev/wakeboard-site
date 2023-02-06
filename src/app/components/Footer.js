@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
     return (
+
         <footer className="site-footer">
             <Container>
                 <Row>
@@ -75,7 +76,7 @@ const Footer = () => {
                         >
                             <i
                                 className='fa fa-phone'
-                                style={{ paddingRight: "1rem" }} 
+                                style={{ paddingRight: "1rem" }}
                             />1-555-555-5555
                         </a>
                         <br />
