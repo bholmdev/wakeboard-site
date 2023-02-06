@@ -21,11 +21,16 @@ h3,
 .banner-image {
     height: 80px;
     margin-right: 25px;
-    margin-left: 40px;
+    margin-left: 10px;
 }
 
 .banner-title {
     color: white;
+}
+
+.breadcrumb-btns {
+    border-radius: 5px;
+    background-color:#248bb7;
 }
 
 .card-title {
@@ -61,6 +66,14 @@ h2 {
 .site-footer a {
     color: black;
     text-decoration: none;
+}
+
+.text-social {
+    color: black;
+}
+
+.text-white a {
+    color: white;
 }
 
 .navbar-brand {

@@ -29,9 +29,9 @@ const Footer = () => {
                     </Col>
                     <Col
                         xs="6" sm="3"
-                        className="text-center"
+                        className="text-center text-white"
                     >
-                        <h5>Social</h5>
+                        <h5 className="text-social">Social</h5>
                         <a
                             className='btn btn-social-icon btn-instagram'
                             href='http://instagram.com/'
@@ -69,6 +69,7 @@ const Footer = () => {
                         sm="4"
                         className="text-center"
                     >
+                        <h5>Contact</h5>
                         <a
                             role='button'
                             className='btn btn-link'
