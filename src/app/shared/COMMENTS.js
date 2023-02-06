@@ -3,7 +3,7 @@ export const COMMENTS = [
         id: 0,
         parkId: 0,
         rating: 5,
-        text: 'The grass was indeed greener here than our last campsite.',
+        text: 'The water here was more beautiful than our last park.',
         author: 'Simon Hunt',
         date: '2018-10-25T16:30Z'
     },
@@ -11,7 +11,7 @@ export const COMMENTS = [
         id: 1,
         parkId: 0,
         rating: 3,
-        text: 'This lone monkey kept following us back to our tent.',
+        text: 'This cable kept failing and I fell in to the water.',
         author: 'Zandra Katherine',
         date: '2017-06-17T03:33Z'
     },
@@ -19,7 +19,7 @@ export const COMMENTS = [
         id: 2,
         parkId: 0,
         rating: 4,
-        text: 'Do not feed the wildlife. They will follow you back to the tent.',
+        text: 'Park was great, do not eat here, the food is awful.',
         author: 'Amy Keophilavong',
         date: '2019-02-18T18:12Z'
     },
@@ -27,7 +27,7 @@ export const COMMENTS = [
         id: 3,
         parkId: 0,
         rating: 3,
-        text: "Avoid Sundays; couldn't relax and play my flute with all the noisy kids.",
+        text: "Avoid Sundays; couldn't concentrate with all the noisy kids.",
         author: 'Jean Luc',
         date: '2019-08-04T20:11Z'
     },
@@ -35,7 +35,7 @@ export const COMMENTS = [
         id: 4,
         parkId: 0,
         rating: 5,
-        text: "This has been our favorite campsite for over 7 years. It is an absolutely beautiful site. The hosts are very friendly and helpful. Don't forget to try out the lake.",
+        text: "This has been our favorite wake park for over 7 years. It is an absolutely beautiful site. The hosts are very friendly and helpful. Don't forget to try out the beach lake.",
         author: 'R. E. Osariemen',
         date: '2018-07-23T19:44Z'
     },
@@ -43,7 +43,7 @@ export const COMMENTS = [
         id: 5,
         parkId: 1,
         rating: 4,
-        text: "There's nothing more fun than setting up a tent in a rainstorm.",
+        text: "There's nothing more fun than setting up a park run in a rainstorm.",
         author: 'Juan Cortez',
         date: '2017-06-17T03:33Z'
     },
@@ -51,7 +51,7 @@ export const COMMENTS = [
         id: 6,
         parkId: 1,
         rating: 5,
-        text: 'I caught a world-record-breaking trout here on my last visit.',
+        text: 'I prodeced a world-record-breaking flip here on my last visit.',
         author: 'McKenzie Sebastian',
         date: '2019-02-18T18:12Z'
     },
@@ -59,7 +59,7 @@ export const COMMENTS = [
         id: 7,
         parkId: 1,
         rating: 5,
-        text: 'The campground was beautiful, but the bugs could bite sometimes.',
+        text: 'The park was beautiful, but the mosquitoes could bite sometimes.',
         author: 'Brennen Ech',
         date: '2019-08-04T20:11Z'
     },
@@ -67,7 +67,7 @@ export const COMMENTS = [
         id: 8,
         parkId: 1,
         rating: 4,
-        text: "Love the river but I didn't catch any fish.",
+        text: "Love the park but I didn't run any junior competitions and they have certain days where only competitors can wakeboard. LOOK AT THE SCHEDULE!",
         author: 'Amy Keophilavong',
         date: '2018-07-23T19:44Z'
     },
@@ -75,7 +75,7 @@ export const COMMENTS = [
         id: 9,
         parkId: 1,
         rating: 5,
-        text: 'A wonderful place to reconnect with nature.',
+        text: 'A wonderful place to hone your skills or just make some runs around the park.',
         author: 'Jordan Runn',
         date: '2019-08-04T20:11Z'
     },
@@ -83,7 +83,7 @@ export const COMMENTS = [
         id: 10,
         parkId: 2,
         rating: 5,
-        text: 'The Frozen Tundra is great place for family and friends camping!',
+        text: 'They also have a great place for family, friends, and camping!',
         author: 'Olaf the Snowman',
         date: '2019-02-18T18:12Z'
     },
@@ -91,7 +91,7 @@ export const COMMENTS = [
         id: 11,
         parkId: 2,
         rating: 1,
-        text: 'We had to leave about 2am to go back to the city because the quiet was just too much!',
+        text: 'We had to leave about 10pm to go back to the city because the park was just too much!  They host college level parties on the weekends!',
         author: 'Vincent and Mona Lisa Gambini',
         date: '2018-10-25T16:30Z'
     },
@@ -99,7 +99,7 @@ export const COMMENTS = [
         id: 12,
         parkId: 2,
         rating: 5,
-        text: 'The stars at night were a revelation!',
+        text: 'The stars at night were a revelation!  I love night waking and they are one of the few parks that allow it!',
         author: 'Ann Dabramov',
         date: '2018-07-23T19:44Z'
     },
@@ -107,7 +107,7 @@ export const COMMENTS = [
         id: 13,
         parkId: 2,
         rating: 4,
-        text: 'Great scenic hiking trails but it was challenging to go up the mountain.',
+        text: 'Great rock climbing wall you can do while waiting for your group! It was super challenging to go up though.',
         author: 'Amy Keophilavong',
         date: '2018-10-25T16:30Z'
     },
@@ -115,15 +115,15 @@ export const COMMENTS = [
         id: 14,
         parkId: 2,
         rating: 5,
-        text: 'Perfect scenery for a smoked kipper breakfast with friends!',
-        author: 'Dave Lister',
+        text: 'Perfect "scenery" for a mohito brunch with friends to watch the wakeboarders! ;)',
+        author: 'Ashley Lister',
         date: '2019-08-04T20:11Z'
     },
     {
         id: 15,
         parkId: 3,
         rating: 4,
-        text: 'Just remember a bear can run and climb faster than you...',
+        text: 'Just remember to know your limits.  This park is highly technical if you ride out to the edges...',
         author: 'Markell Richards',
         date: '2017-06-17T03:33Z'
     },
@@ -131,7 +131,7 @@ export const COMMENTS = [
         id: 16,
         parkId: 3,
         rating: 5,
-        text: 'Excellent site to recharge from the city.',
+        text: 'Excellent park to recharge from your crazy busy week of coding!',
         author: 'Amy Keophilavong',
         date: '2018-07-23T19:44Z'
     },
@@ -139,15 +139,15 @@ export const COMMENTS = [
         id: 17,
         parkId: 3,
         rating: 5,
-        text: 'What a magnificent view!',
+        text: 'What a magnificent park!  So much fun!',
         author: 'Tinus Lorvaldes',
         date: '2018-10-25T16:30Z'
     },
     {
         id: 18,
         parkId: 3,
-        rating: 4,
-        text: 'The sites are huge! We felt like we were in the middle of nowhere, in a good way.',
+        rating: 5,
+        text: 'The park is huge! They have plenty of runs, even on the most busy days!',
         author: 'Chloe Haskins',
         date: '2017-06-17T03:33Z'
     },
@@ -155,8 +155,40 @@ export const COMMENTS = [
         id: 19,
         parkId: 3,
         rating: 5,
-        text: "The photos don't do justice to the beauty of this place.",
+        text: "The photos don't do justice to the massive size of this cable park.",
         author: 'Minae Lee',
+        date: '2019-02-18T18:12Z'
+    },
+    {
+        id: 20,
+        parkId: 4,
+        rating: 5,
+        text: "I have lived in Germany for 4 years and just found this park.  I wish I knew about it 4 years ago!",
+        author: 'Robert Jones',
+        date: '2019-02-18T18:12Z'
+    },
+    {
+        id: 21,
+        parkId: 4,
+        rating: 5,
+        text: "The best park in Europe by far! Ich Liebe Dich!!!",
+        author: 'Stephan Ehr',
+        date: '2019-02-18T18:12Z'
+    },
+    {
+        id: 22,
+        parkId: 4,
+        rating: 1,
+        text: "Where the heck is ausfahrt?!",
+        author: 'John Duh',
+        date: '2019-02-18T18:12Z'
+    },
+    {
+        id: 22,
+        parkId: 5,
+        rating: 1,
+        text: "Singapore is beautiful!  This park just adds to that.  Outside of the wake park is a public park that stretches across the entire beach!  Must visit!",
+        author: 'Sam B.',
         date: '2019-02-18T18:12Z'
     }
 ];
