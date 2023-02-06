@@ -28,9 +28,17 @@ h3,
     color: white;
 }
 
-.breadcrumb-btns {
-    border-radius: 5px;
-    background-color:#248bb7;
+.breadcrumb-item + .breadcrumb-item::before {
+    content: ">" !important;
+    align-self: baseline;
+    color: #7d8daa;
+    font-size: 24px;
+    margin-top: 5px;
+}
+
+.cust-bread-btn {
+    background-color: #0c597a !important;
+    margin-top: 5px;
 }
 
 .card-title {

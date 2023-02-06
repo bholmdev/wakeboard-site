@@ -10,20 +10,20 @@ const SubHeader = ({ current, detail }) => {
                         <Breadcrumb>
                             <BreadcrumbItem>
                                 <Link to="/">
-                                    <Button color="primary">Home</Button>
+                                    <Button className="cust-bread-btn">Home</Button>
                                 </Link>
                             </BreadcrumbItem>
                             {detail && (
                                 <BreadcrumbItem>
                                     <Link to="/directory">
-                                        <Button color="primary">
+                                        <Button className="cust-bread-btn">
                                             Directory
                                         </Button>
                                     </Link>
                                 </BreadcrumbItem>
                             )}
                             <BreadcrumbItem>
-                                <Button color="primary">
+                                <Button className="cust-bread-btn">
                                     {current}
                                 </Button>
                             </BreadcrumbItem>
