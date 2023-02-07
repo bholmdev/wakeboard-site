@@ -8,6 +8,7 @@ import {
 } from "reactstrap";
 import SubHeader from "../components/SubHeader";
 import { numberOfComments } from "../features/comments/commentsSlice";
+import SponsorsList from "../features/sponsors/SponsorsList";
 
 const AboutPage = () => {
     return (
@@ -65,6 +66,7 @@ const AboutPage = () => {
                 <Col xs="12">
                     <h3>Sponsors</h3>
                 </Col>
+                <SponsorsList />
             </Row>
         </Container>
     );
