@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/wakeboard-site/static/css/main.e4c33ee8.css",
-    "main.js": "/wakeboard-site/static/js/main.c05c9f16.js",
+    "main.js": "/wakeboard-site/static/js/main.de25c4e7.js",
     "static/js/787.7f06f685.chunk.js": "/wakeboard-site/static/js/787.7f06f685.chunk.js",
     "static/media/buywake.jpg": "/wakeboard-site/static/media/buywake.c04a19fbde5ab72316c0.jpg",
     "static/media/waksportsU.jpg": "/wakeboard-site/static/media/waksportsU.18221d26451f3fdd1e43.jpg",
@@ -47,11 +47,11 @@
     "static/media/open-sans-latin-400italic.woff2": "/wakeboard-site/static/media/open-sans-latin-400italic.bb915319f59c02c348a6.woff2",
     "index.html": "/wakeboard-site/index.html",
     "main.e4c33ee8.css.map": "/wakeboard-site/static/css/main.e4c33ee8.css.map",
-    "main.c05c9f16.js.map": "/wakeboard-site/static/js/main.c05c9f16.js.map",
+    "main.de25c4e7.js.map": "/wakeboard-site/static/js/main.de25c4e7.js.map",
     "787.7f06f685.chunk.js.map": "/wakeboard-site/static/js/787.7f06f685.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e4c33ee8.css",
-    "static/js/main.c05c9f16.js"
+    "static/js/main.de25c4e7.js"
   ]
 }
