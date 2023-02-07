@@ -18,7 +18,7 @@ const AboutPage = () => {
                 <Col sm="6">
                     <h3>Mission Statement</h3>
                     <p>
-                        It is our mission to provide our members the best experience when trying to find a wakepark near their location.  We thrive to keep our list updated however, with an ever changing world that is not always possible.  If you find any parks that no longer exist on our list or find new parks that are not listed please sent us a message on our <a href="/contact">Contact Us</a> page and we will update accordingly.
+                        It is our mission to provide our members the best experience when trying to find a wakepark near their location.  We thrive to keep our list updated however, with an ever changing world that is not always possible.  If you find any parks that no longer exist on our list or find new parks that are not listed please sent us a message on our <a href="./contact">Contact Us</a> page and we will update accordingly.
                     </p>
                 </Col>
                 <Col sm="6">
