@@ -12,11 +12,11 @@ function App() {
     <div className="App">
       <Header />
       <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="contact" element={<ContactPage />} />
-        <Route path="directory" element={<ParksDirectoryPage />} />
+        <Route path="/wakeboard-site" element={<HomePage />} />
+        <Route path="/contact" element={<ContactPage />} />
+        <Route path="/directory" element={<ParksDirectoryPage />} />
         <Route
-          path="directory/:parkId"
+          path="/directory/:parkId"
           element={<ParkDetailPage />}
         />
       </Routes>

@@ -1,4 +1,4 @@
-import { Card, CardTitle, CardBody, Container } from "reactstrap";
+import { Card, CardTitle, Container } from "reactstrap";
 import DisplayList from "../features/display/DisplayList";
 import SubHeader from "../components/SubHeader";
 
@@ -17,7 +17,7 @@ const HomePage = () => {
           >Special shoutout to US Cable Wake Parks for creating this map!</a>
         </CardTitle>
         <Card body>
-          <iframe className="world-map" src="https://www.google.com/maps/d/embed?mid=1_2-3msEu83LIxfEm9TSn_V9c0zo&ehbc=2E312F" width="640" height="480"></iframe>
+          <iframe title="world-map" className="world-map" src="https://www.google.com/maps/d/embed?mid=1_2-3msEu83LIxfEm9TSn_V9c0zo&ehbc=2E312F" width="640" height="480"></iframe>
         </Card>
       </Card>
     </Container>

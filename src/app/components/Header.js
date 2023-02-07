@@ -32,7 +32,7 @@ const Header = () => {
                 <Collapse isOpen={menuOpen} navbar>
                     <Nav className="ms-center" navbar>
                         <NavItem>
-                            <NavLink className="nav-link" to="/">
+                            <NavLink className="nav-link" to="/wakeboard-site">
                                 <i className="fa fa-home fa-lg" /> Home
                             </NavLink>
                         </NavItem>
