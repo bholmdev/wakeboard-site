@@ -1,7 +1,7 @@
 import { Card, CardBody, CardImg, CardText, Col } from "reactstrap";
 
 const ParkDetail = ({ park }) => {
-    const { image, name, description } = park;
+    const { image, name, description, country, city, state, link } = park;
 
     return (
         <Col
@@ -16,6 +16,13 @@ const ParkDetail = ({ park }) => {
                 />
                 <CardBody>
                     <CardText>{description}</CardText>
+                </CardBody>
+                <CardBody>
+                    <h5>Location</h5>
+                    <CardText>City: {city}</CardText>
+                    <CardText>State: {state}</CardText>
+                    <CardText>Country: {country}</CardText>
+                    <CardText>Website: <a href={link} target="_blank" rel="noopener noreferrer">{link}</a></CardText>
                 </CardBody>
             </Card>
         </Col>

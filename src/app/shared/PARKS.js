@@ -16,8 +16,8 @@ export const PARKS = [
         description:
             "No boat? No problem! Wakeboard and waterski on the cable lakes at TSR. We pride ourselves on having one of the top ranked wakeboarding facilities in the world with some of the best coaches and southern hospitality that can't be beat.",
         country: "USA",
-        city: "",
-        state: "",
+        city: "New Braunfels",
+        state: "Texas",
         link: "https://www.texasskiranch.com/"
     },
     {
@@ -27,8 +27,8 @@ export const PARKS = [
         featured: false,
         description: "Experience our state-of-the-art cable towing system. The perfect learning tool for beginners and the most fun for our advanced riders trying new tricks on our features.",
         country: "USA",
-        city: "New Braunfels",
-        state: "Texas",
+        city: "Woodland",
+        state: "California",
         link: "https://www.velocityislandpark.com/"
     },
     {
