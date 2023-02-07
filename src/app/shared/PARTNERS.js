@@ -1,13 +1,15 @@
+import wakesportsLogo from "../assets/img/waksportsU.jpg";
 
 
 export const PARTNERS = [
     {
         id: 0,
-        name: 'Bootstrap Outfitters',
-        image: bootStrapLogo,
+        name: 'Wakesports Unlimited',
+        image: wakesportsLogo,
         featured: false,
         description:
-            "Bootstrap Outfitters supplies you with the gear you need at prices you can't beat."
+            "We have been Southern California's premier water sports pro shop for over 22 years. We bring the personable pro shop mentality to the online world.",
+        link: "https://www.wakesports.com/"
     },
     {
         id: 1,
