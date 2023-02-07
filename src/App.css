@@ -115,3 +115,7 @@ h2 {
     opacity: 0;
     transition: 300ms ease-in;
 }
+
+.world-map {
+    width: auto;
+}
