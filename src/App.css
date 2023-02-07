@@ -22,10 +22,16 @@ h3,
     height: 80px;
     margin-right: 25px;
     margin-left: 10px;
+    border-radius: 50%;
+    
 }
 
 .banner-title {
     color: white;
+}
+
+.brand-logo {
+    border-radius: 50%;
 }
 
 .breadcrumb-item + .breadcrumb-item::before {

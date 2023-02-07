@@ -16,7 +16,7 @@ const Header = () => {
     return (
         <>
             <div className="banner">
-                <a href="/"><img src={logo} alt="logo" className="banner-image" /></a>
+                <a href="/wakeboard-site"><img src={logo} alt="logo" className="banner-image" /></a>
                 <h1 className="banner-title">Wakeboard United</h1>
             </div>
             <Navbar
@@ -26,7 +26,7 @@ const Header = () => {
                 expand="md"
             >   
                 <NavbarBrand href="/">
-                    <img src={logo} alt="logo" />
+                    <img className="brand-logo" src={logo} alt="logo" />
                 </NavbarBrand>
                 <NavbarToggler onClick={() => setMenuOpen(!menuOpen)} />
                 <Collapse isOpen={menuOpen} navbar>
