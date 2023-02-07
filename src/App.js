@@ -6,6 +6,7 @@ import ParksDirectoryPage from './app/pages/ParksDirectoryPage';
 import ParkDetailPage from './app/pages/ParkDetailPage';
 import ContactPage from './app/pages/ContactPage';
 import Footer from './app/components/Footer';
+import AboutPage from './app/pages/AboutPage';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           path="/directory/:parkId"
           element={<ParkDetailPage />}
         />
+        <Route path="/about" element={<AboutPage/>} />
       </Routes>
       <Footer />
     </div>
