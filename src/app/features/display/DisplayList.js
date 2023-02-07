@@ -9,6 +9,7 @@ const DisplayList = () => {
 
     return (
         <Row>
+            <h4>Featured Park, Goodies, and Sponor!</h4>
             {items.map((item, idx) => {
                 return (
                     <Col

@@ -10,14 +10,14 @@ export const PROMOTIONS = [
         image: wakeboardkid,
         featured: true,
         description:
-            'Book a 5-day course with a pro wakeboarder guide! Wakeboard, park time, and lessons provided.'
+            'COMING SOON!!!  Book a 5-day course with a pro wakeboarder guide! Wakeboard, park time, and lessons provided.'
     },
     {
         id: 1,
         name: 'Beginner Teardown',
         image: beginner,
         featured: false,
-        description: `In this weekend course, we'll build your fundamentals, so you're ready for next-level wakes.`
+        description: `COMING SOON!!!  In this weekend course, we'll build your fundamentals, so you're ready for next-level wakes.`
     },
     {
         id: 2,
@@ -25,7 +25,7 @@ export const PROMOTIONS = [
         image: intermediate,
         featured: false,
         description:
-            'Intermediate level adventure with ramps and freestyle park.  Limited time only!'
+            'COMING SOON!!!  Intermediate level adventure with ramps and freestyle park.  Limited time only!'
     },
     {
         id: 3,
@@ -33,6 +33,6 @@ export const PROMOTIONS = [
         image: advanced,
         featured: false,
         description:
-            'Meet with experts from around the globe to test your body and board to their limits!'
+            'COMING SOON!!!  Meet with experts from around the globe to test your body and board to their limits!'
     }
 ];

@@ -1,7 +1,7 @@
 import { Card, CardBody, CardImg, CardText, CardTitle } from "reactstrap";
 
 const DisplayCard = ({ item }) => {
-    const { image, name, description } = item;
+    const { image, name, description, link } = item;
 
     return (
         <Card>
@@ -12,6 +12,12 @@ const DisplayCard = ({ item }) => {
             <CardBody>
                 <CardTitle>{name}</CardTitle>
                 <CardText>{description}</CardText>
+                {
+                    link && (
+                        <CardText>Website: <a href={link} target="_blank" rel="noopener noreferrer">{name}</a></CardText>
+                    )
+                }
+                
             </CardBody>
         </Card>
     );
