@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/wakeboard-site/static/css/main.b660fd7f.css",
-    "main.js": "/wakeboard-site/static/js/main.40f570f3.js",
+    "main.js": "/wakeboard-site/static/js/main.71aa064c.js",
     "static/js/787.7f06f685.chunk.js": "/wakeboard-site/static/js/787.7f06f685.chunk.js",
     "static/media/singaporewake.jpg": "/wakeboard-site/static/media/singaporewake.62fdc311aa32f804a01f.jpg",
     "static/media/beginner.jpg": "/wakeboard-site/static/media/beginner.c4772c9656de17fdc2fc.jpg",
@@ -43,11 +43,11 @@
     "static/media/open-sans-latin-400italic.woff2": "/wakeboard-site/static/media/open-sans-latin-400italic.bb915319f59c02c348a6.woff2",
     "index.html": "/wakeboard-site/index.html",
     "main.b660fd7f.css.map": "/wakeboard-site/static/css/main.b660fd7f.css.map",
-    "main.40f570f3.js.map": "/wakeboard-site/static/js/main.40f570f3.js.map",
+    "main.71aa064c.js.map": "/wakeboard-site/static/js/main.71aa064c.js.map",
     "787.7f06f685.chunk.js.map": "/wakeboard-site/static/js/787.7f06f685.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b660fd7f.css",
-    "static/js/main.40f570f3.js"
+    "static/js/main.71aa064c.js"
   ]
 }
