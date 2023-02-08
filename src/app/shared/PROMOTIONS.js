@@ -10,7 +10,7 @@ export const PROMOTIONS = [
         image: wakeboardkid,
         featured: true,
         description:
-            'COMING SOON!!!  Book a 5-day course with a pro wakeboarder guide! Wakeboard, park time, and lessons provided.'
+            'COMING SOON!!!  Book a 5-day course with a pro! Wakeboard, park time, and lessons provided.'
     },
     {
         id: 1,
