@@ -73,7 +73,7 @@ const Footer = () => {
                         <a
                             role='button'
                             className='btn btn-link'
-                            href='tel:+12065551234'
+                            href='tel:+15555555555'
                         >
                             <i
                                 className='fa fa-phone'
@@ -89,7 +89,7 @@ const Footer = () => {
                             <i
                                 className='fa fa-envelope-o'
                                 style={{ paddingRight: "1rem" }}
-                            />wakeboard@exampledomain.com
+                            />wakeboard@notrealdomain.com
                         </a>
                     </Col>
                 </Row>
