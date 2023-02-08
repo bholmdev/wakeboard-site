@@ -128,4 +128,6 @@ h2 {
 
 .world-map {
     width: auto;
+    padding: 20px;
+    border-radius: 10px;
 }
