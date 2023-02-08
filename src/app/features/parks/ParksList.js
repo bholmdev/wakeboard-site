@@ -11,8 +11,8 @@ const ParksList = () => {
                 parks.map(park => {
                     return ( 
                         <Col
-                            md="5"
-                            className="m-4"
+                            md="6"
+                            className="mb-4"
                             key={park.id}
                             
                         >

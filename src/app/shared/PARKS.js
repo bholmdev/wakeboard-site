@@ -74,5 +74,5 @@ export const PARKS = [
         city: "Katong",
         state: "East Region",
         link: "https://singaporewakepark.com/"
-    },
+    }
 ];
