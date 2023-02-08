@@ -24,8 +24,8 @@ const Header = () => {
                 className="custom-navbar"
                 stick="top"
                 expand="md"
-            >   
-                <NavbarBrand href="/">
+            >
+                <NavbarBrand href="/wakeboard-site">
                     <img className="brand-logo" src={logo} alt="logo" />
                 </NavbarBrand>
                 <NavbarToggler onClick={() => setMenuOpen(!menuOpen)} />

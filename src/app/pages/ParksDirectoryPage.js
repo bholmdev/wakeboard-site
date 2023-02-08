@@ -6,6 +6,7 @@ const ParksDirectoryPage = () => {
     return (
         <Container>
             <SubHeader current="Directory" />
+            <h2>Click on park for more information</h2>
             <ParksList />
         </Container>
     );

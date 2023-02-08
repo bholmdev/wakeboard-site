@@ -7,7 +7,7 @@ const DisplayMap = () => {
                 <CardTitle className="ms-2">
                     <h2 className="map-title">Parks Around the World</h2>
                     
-                        <p>Special shoutout to
+                        <p>Special shoutout to{" "}
                             <a
                                 href="http://uscablewakeparks.com/index.html"
                                 target="_blank"
