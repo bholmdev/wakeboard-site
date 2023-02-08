@@ -1,7 +1,7 @@
 import { Col, Row } from "reactstrap";
 import DisplayCard from "./DisplayCard";
 import { selectFeaturedPark } from "../parks/parksSlice";
-import { selectFeaturedPromotion } from "./promotions/promotionsSlice";
+import { selectFeaturedPromotion } from "../promotions/promotionsSlice";
 import { selectFeaturedSponsor } from "../sponsors/sponsorSlice";
 
 const DisplayList = () => {

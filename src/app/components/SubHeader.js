@@ -37,29 +37,4 @@ const SubHeader = ({ current, detail }) => {
     );
 };
 
-
 export default SubHeader;
-
-{/* <div className="breadcrumb-container">
-    <Breadcrumb>
-        <BreadcrumbItem>
-            <Link to="/">
-                <button className="breadcrumb-btns">Home</button>
-            </Link>
-        </BreadcrumbItem>
-        {detail && (
-            <BreadcrumbItem>
-                <Link to="/directory">
-                    <button className="breadcrumb-btns">
-                        Directory
-                    </button>
-                </Link>
-            </BreadcrumbItem>
-        )}
-        <BreadcrumbItem>
-            <button className="breadcrumb-btns">
-                {current}
-            </button>
-        </BreadcrumbItem>
-    </Breadcrumb>
-</div> */}
