@@ -20,15 +20,23 @@ const ContactForm = () => {
                         First Name
                     </Label>
                     <Col md="10">
-
+                        <Field
+                            name="firstName"
+                            placeholder="First Name"
+                            className="form-control"
+                        />
                     </Col>
                 </FormGroup>
                 <FormGroup row>
-                    <Label htmlFor="lastName" ms="2">
+                    <Label htmlFor="lastName" md="2">
                         Last Name
                     </Label>
                     <Col md="10">
-
+                        <Field
+                            name="lastName"
+                            placeholder="Last Name"
+                            className="form-control"
+                        />
                     </Col>
                 </FormGroup>
                 <FormGroup row>
@@ -36,7 +44,11 @@ const ContactForm = () => {
                         Phone
                     </Label>
                     <Col md="10">
-
+                        <Field
+                            name="phoneNum"
+                            placeholder="Phone"
+                            className="form-control"
+                        />
                     </Col>
                 </FormGroup>
                 <FormGroup row>
@@ -44,15 +56,32 @@ const ContactForm = () => {
                         Email
                     </Label>
                     <Col md="10">
-
+                        <Field
+                            name="email"
+                            placeholder="Email"
+                            type="email"
+                            className="form-control"
+                        />
                     </Col>
                 </FormGroup>
                 <FormGroup row>
                     <Label check md={{ size: 4, offset: 2 }}>
+                        <Field
+                            name="agree"
+                            type="checkbox"
+                            className="form-check-input"
+                        />{" "}
                         May we contact you?
                     </Label>
                     <Col md="4">
-
+                        <Field
+                            name="contactType"
+                            as="select"
+                            className="form-control"
+                        >
+                            <option>By Phone</option>
+                            <option>By Email</option>
+                        </Field>
                     </Col>
                 </FormGroup>
                 <FormGroup row>
@@ -60,7 +89,12 @@ const ContactForm = () => {
                         Your Feedback
                     </Label>
                     <Col md="10">
-
+                        <Field
+                            name="feedback"
+                            as="textarea"
+                            rows="12"
+                            className="form-control"
+                        />
                     </Col>
                 </FormGroup>
                 <FormGroup row>
