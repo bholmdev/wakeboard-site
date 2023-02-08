@@ -16,7 +16,6 @@ const Header = () => {
     return (
         <>
             <div className="banner">
-                <a href="/wakeboard-site"><img src={logo} alt="logo" className="banner-image" /></a>
                 <h1 className="banner-title">Wakeboard United</h1>
             </div>
             <Navbar

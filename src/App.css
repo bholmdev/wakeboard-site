@@ -18,12 +18,8 @@ h3,
     min-height: 8rem;
 }
 
-.banner-image {
-    height: 80px;
-    margin-right: 25px;
-    margin-left: 10px;
-    border-radius: 50%;
-    
+.banner-title {
+    margin: 45px;
 }
 
 .banner-title {
