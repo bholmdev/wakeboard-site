@@ -47,7 +47,7 @@ const AboutPage = () => {
                                     “Nerves are running, and I'm thinking about what I'm going to do out there. You see me 30 minutes later, though, and it's totally different. Let's go to the beer tent, tell stories from the day and have fun.”
                                 </p>
                                 <footer className="blockquote-footer">
-                                    Rusty Malinkoski,{' '}
+                                    Rusty Malinoski,{' '}
                                     <cite title="Source Title">
                                         <a
                                             href="https://www.wakeboardingmag.com/blog/features/2011/12/08/best-of-2011-top-10-pro-spotlight-quotes/"
