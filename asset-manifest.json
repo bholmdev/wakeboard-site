@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/wakeboard-site/static/css/main.df6538a7.css",
-    "main.js": "/wakeboard-site/static/js/main.887cbb2a.js",
+    "main.css": "/wakeboard-site/static/css/main.4c46e1df.css",
+    "main.js": "/wakeboard-site/static/js/main.e91ef0f8.js",
     "static/js/787.7f06f685.chunk.js": "/wakeboard-site/static/js/787.7f06f685.chunk.js",
     "static/media/buywake.jpg": "/wakeboard-site/static/media/buywake.c04a19fbde5ab72316c0.jpg",
     "static/media/waksportsU.jpg": "/wakeboard-site/static/media/waksportsU.18221d26451f3fdd1e43.jpg",
@@ -46,12 +46,12 @@
     "static/media/open-sans-latin-600italic.woff2": "/wakeboard-site/static/media/open-sans-latin-600italic.cc4bf5b2955147801c02.woff2",
     "static/media/open-sans-latin-400italic.woff2": "/wakeboard-site/static/media/open-sans-latin-400italic.bb915319f59c02c348a6.woff2",
     "index.html": "/wakeboard-site/index.html",
-    "main.df6538a7.css.map": "/wakeboard-site/static/css/main.df6538a7.css.map",
-    "main.887cbb2a.js.map": "/wakeboard-site/static/js/main.887cbb2a.js.map",
+    "main.4c46e1df.css.map": "/wakeboard-site/static/css/main.4c46e1df.css.map",
+    "main.e91ef0f8.js.map": "/wakeboard-site/static/js/main.e91ef0f8.js.map",
     "787.7f06f685.chunk.js.map": "/wakeboard-site/static/js/787.7f06f685.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.df6538a7.css",
-    "static/js/main.887cbb2a.js"
+    "static/css/main.4c46e1df.css",
+    "static/js/main.e91ef0f8.js"
   ]
 }
