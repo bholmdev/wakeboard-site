@@ -1,9 +1,10 @@
+import { useSelector } from "react-redux";
 import { Col, Row } from "reactstrap";
 import ParkCard from "./ParkCard";
 import { selectAllParks } from "./parksSlice";
 
 const ParksList = () => {
-    const parks = selectAllParks();
+    const parks = useSelector(selectAllParks);
 
     return (
         <Row className="ms-auto">

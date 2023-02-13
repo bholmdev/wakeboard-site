@@ -1,3 +1,4 @@
+import { useSelector } from "react-redux";
 import { useParams } from "react-router-dom";
 import { Container, Row } from "reactstrap";
 import { selectParkById } from "../features/parks/parksSlice";
@@ -7,7 +8,7 @@ import SubHeader from "../components/SubHeader";
 
 const ParkDetailPage = () => {
     const { parkId } = useParams();
-    const park = selectParkById(parkId)
+    const park = useSelector(selectParkById(parkId));
 
     return (
         <Container>

@@ -12,14 +12,16 @@ const parksSlice = createSlice({
 
 export const parksReducer = parksSlice.reducer;
 
-export const selectAllParks = () => {
-    return PARKS;
+export const selectAllParks = state => {
+    return state.parks.parksArray;
 };
 
-export const selectParkById = (id) => {
-    return PARKS.find(park => park.id === parseInt(id));
+export const selectParkById = id => state => {
+    return state.parks.parksArray.find(
+        park => park.id === parseInt(id)
+    );
 };
 
-export const selectFeaturedPark = () => {
-    return PARKS.find(park => park.featured);
+export const selectFeaturedPark = state => {
+    return state.parks.parksArray.find(park => park.featured);
 };
