@@ -1,10 +1,14 @@
 import { useState } from "react";
+import { useDispatch } from "react-redux";
 import { Button, FormGroup, Label, Modal, ModalBody, ModalHeader } from "reactstrap";
 import { Formik, ErrorMessage, Field, Form } from "formik";
 import { validateCommentForm } from "../../utils/validateCommentForm";
+import { addComment } from "./commentsSlice";
 
 const CommentForm = ({ parkId }) => {
     const [modalOpen, setModalOpen] = useState(false);
+
+    const dispatch = useDispatch();
 
     const handleSubmit = values => {
         const comment =
@@ -12,9 +16,10 @@ const CommentForm = ({ parkId }) => {
             parkId: parseInt(parkId),
             rating: values.rating,
             author: values.author,
-            text: values.commentText
+            text: values.commentText,
+            date: new Date(Date.now()).toDateString()
         }
-        console.log(comment);
+        dispatch(addComment(comment));
 
         setModalOpen(false);
     };
