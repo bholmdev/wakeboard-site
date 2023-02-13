@@ -13,7 +13,7 @@ const sponsorsSlice = createSlice({
 export const sponsorsReducer = sponsorsSlice.reducer;
 
 export const selectAllSponsors = state => {
-    return state.sponsors.sponsorArray;
+    return state.sponsors.sponsorsArray;
 };
 
 export const selectFeaturedSponsor = state => {
