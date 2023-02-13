@@ -1,4 +1,5 @@
 import { configureStore } from '@reduxjs/toolkit';
+import logger from 'redux-logger';
 import { parksReducer } from './features/parks/parksSlice';
 import { commentsReducer } from './features/comments/commentsSlice';
 import { sponsorsReducer } from './features/sponsors/sponsorSlice';
@@ -11,4 +12,5 @@ export const store = configureStore({
         sponsors: sponsorsReducer,
         promotions: promotionsReducer
     },
+    middleware: getDefaultMiddleware => getDefaultMiddleware().concat([logger])
 });
