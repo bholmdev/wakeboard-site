@@ -36,7 +36,7 @@ const UserLoginForm = () => {
     return (
         <>
             <span
-                className="navbar-text ml-auto"
+                className="navbar-text ms-auto"
             >
                 {currentUser ? (
                     <div style={{ width: '4rem', height: '4rem' }}>
