@@ -25,29 +25,29 @@ const Header = () => {
                 stick="top"
                 expand="md"
             >
-                <NavbarBrand href="/wakeboard-site">
+                <NavbarBrand href="home">
                     <img className="brand-logo" src={logo} alt="logo" />
                 </NavbarBrand>
                 <NavbarToggler onClick={() => setMenuOpen(!menuOpen)} />
                 <Collapse isOpen={menuOpen} navbar>
                     <Nav className="ms-center" navbar>
                         <NavItem>
-                            <NavLink className="nav-link" to="/wakeboard-site">
+                            <NavLink className="nav-link" to="home">
                                 <i className="fa fa-home fa-lg" /> Home
                             </NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink className="nav-link" to="/directory">
+                            <NavLink className="nav-link" to="directory">
                                 <i className="fa fa-list fa-lg" /> Directory
                             </NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink className="nav-link" to="/about">
+                            <NavLink className="nav-link" to="about">
                                 <i className="fa fa-info fa-lg" /> About
                             </NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink className="nav-link" to="/contact">
+                            <NavLink className="nav-link" to="contact">
                                 <i className="fa fa-address-card fa-lg" /> Contact
                             </NavLink>
                         </NavItem>
