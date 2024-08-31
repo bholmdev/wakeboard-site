@@ -25,14 +25,14 @@ const Header = () => {
                 stick="top"
                 expand="md"
             >
-                <NavbarBrand href="home">
+                <NavbarBrand href="/wakeboard-site">
                     <img className="brand-logo" src={logo} alt="logo" />
                 </NavbarBrand>
                 <NavbarToggler onClick={() => setMenuOpen(!menuOpen)} />
                 <Collapse isOpen={menuOpen} navbar>
                     <Nav className="ms-center" navbar>
                         <NavItem>
-                            <NavLink className="nav-link" to="home">
+                            <NavLink className="nav-link" to="/">
                                 <i className="fa fa-home fa-lg" /> Home
                             </NavLink>
                         </NavItem>
