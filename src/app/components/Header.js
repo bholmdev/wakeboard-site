@@ -25,8 +25,11 @@ const Header = () => {
                 stick="top"
                 expand="md"
             >
-                <NavbarBrand href="/wakeboard-site">
-                    <img className="brand-logo" src={logo} alt="logo" />
+                <NavbarBrand>
+                    <NavLink to="/">
+                        <img className="brand-logo" src={logo} alt="logo" />
+                    </NavLink>
+                    
                 </NavbarBrand>
                 <NavbarToggler onClick={() => setMenuOpen(!menuOpen)} />
                 <Collapse isOpen={menuOpen} navbar>
