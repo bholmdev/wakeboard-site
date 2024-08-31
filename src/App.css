@@ -20,10 +20,11 @@ h3,
 
 .banner-title {
     margin: 45px;
+    color: white;
 }
 
-.banner-title {
-    color: white;
+.banner-navLink {
+    text-decoration: none;
 }
 
 .brand-logo {

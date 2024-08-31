@@ -17,7 +17,7 @@ const Header = () => {
     return (
         <>
             <div className="banner">
-                <h1 className="banner-title">Wakeboard United</h1>
+                <NavLink className="banner-navLink" to="/"><h1 className="banner-title">Wakeboard United</h1></NavLink>
             </div>
             <Navbar
                 dark
