@@ -9,7 +9,7 @@ const SubHeader = ({ current, detail }) => {
                     <div className="breadcrumb-container">
                         <Breadcrumb>
                             <BreadcrumbItem>
-                                <Link to="/wakeboard-site">
+                                <Link to="/">
                                     <Button className="cust-bread-btn">Home</Button>
                                 </Link>
                             </BreadcrumbItem>
